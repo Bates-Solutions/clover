@@ -8,7 +8,7 @@
 
 > **CloverHost** = `"ecommerce"` \| `"platform"`
 
-Defined in: [core/types/index.ts:22](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/types/index.ts#L22)
+Defined in: [core/types/index.ts:22](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/types/index.ts#L22)
 
 Which Clover host an operation targets.
 

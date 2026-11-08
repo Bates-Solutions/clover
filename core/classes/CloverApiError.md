@@ -6,7 +6,7 @@
 
 # Class: CloverApiError
 
-Defined in: [core/errors.ts:46](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L46)
+Defined in: [core/errors.ts:46](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L46)
 
 API-level errors returned by Clover
 
@@ -20,7 +20,7 @@ API-level errors returned by Clover
 
 > **new CloverApiError**(`message`, `code`, `statusCode`, `options?`): `CloverApiError`
 
-Defined in: [core/errors.ts:52](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L52)
+Defined in: [core/errors.ts:52](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L52)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [core/errors.ts:52](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` `optional` **cloverCode?**: `string`
 
-Defined in: [core/errors.ts:48](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L48)
+Defined in: [core/errors.ts:48](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L48)
 
 Raw Clover error code, when present
 
@@ -74,7 +74,7 @@ Raw Clover error code, when present
 
 > `readonly` **code**: [`CloverErrorCode`](../type-aliases/CloverErrorCode.md)
 
-Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L23)
+Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L23)
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L25)
+Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L25)
 
 #### Inherited from
 
@@ -98,7 +98,7 @@ Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` `optional` **requestId?**: `string`
 
-Defined in: [core/errors.ts:50](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L50)
+Defined in: [core/errors.ts:50](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L50)
 
 Clover request id for support/debugging
 
@@ -108,7 +108,7 @@ Clover request id for support/debugging
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:24](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L24)
+Defined in: [core/errors.ts:24](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L24)
 
 #### Inherited from
 

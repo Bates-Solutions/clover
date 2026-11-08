@@ -6,7 +6,7 @@
 
 # Class: CloverClient
 
-Defined in: [core/client.ts:44](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L44)
+Defined in: [core/client.ts:44](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L44)
 
 Main Clover client wrapper.
 
@@ -31,7 +31,7 @@ const charge = await clover.payments.create({
 
 > **new CloverClient**(`config`): `CloverClient`
 
-Defined in: [core/client.ts:52](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L52)
+Defined in: [core/client.ts:52](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L52)
 
 #### Parameters
 
@@ -49,7 +49,7 @@ Defined in: [core/client.ts:52](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` **customers**: [`CustomersService`](CustomersService.md)
 
-Defined in: [core/client.ts:50](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L50)
+Defined in: [core/client.ts:50](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L50)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [core/client.ts:50](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` **payments**: [`PaymentsService`](PaymentsService.md)
 
-Defined in: [core/client.ts:48](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L48)
+Defined in: [core/client.ts:48](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L48)
 
 ***
 
@@ -65,7 +65,7 @@ Defined in: [core/client.ts:48](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` **refunds**: [`RefundsService`](RefundsService.md)
 
-Defined in: [core/client.ts:49](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L49)
+Defined in: [core/client.ts:49](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L49)
 
 ## Accessors
 
@@ -75,7 +75,7 @@ Defined in: [core/client.ts:49](https://github.com/Bates-Solutions/clover/blob/4
 
 > **get** **environment**(): [`CloverEnvironment`](../type-aliases/CloverEnvironment.md)
 
-Defined in: [core/client.ts:73](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L73)
+Defined in: [core/client.ts:73](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L73)
 
 The environment this client operates in.
 
@@ -91,7 +91,7 @@ The environment this client operates in.
 
 > **get** **merchantId**(): `string` \| `undefined`
 
-Defined in: [core/client.ts:80](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/client.ts#L80)
+Defined in: [core/client.ts:80](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L80)
 
 The configured merchant id, if any.
 

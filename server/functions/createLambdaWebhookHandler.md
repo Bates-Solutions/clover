@@ -8,7 +8,7 @@
 
 > **createLambdaWebhookHandler**(`config`): (`proxyEvent`) => `Promise`\<[`LambdaProxyResult`](../interfaces/LambdaProxyResult.md)\>
 
-Defined in: [server/middleware/lambda.ts:76](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/server/middleware/lambda.ts#L76)
+Defined in: [server/middleware/lambda.ts:76](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/lambda.ts#L76)
 
 Create an AWS Lambda handler for Clover webhooks.
 

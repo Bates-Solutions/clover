@@ -8,6 +8,6 @@
 
 > **CloverEnvironment** = `"sandbox"` \| `"production"`
 
-Defined in: [core/types/index.ts:4](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/types/index.ts#L4)
+Defined in: [core/types/index.ts:4](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/types/index.ts#L4)
 
 Clover environment. Selects the sandbox or production host.

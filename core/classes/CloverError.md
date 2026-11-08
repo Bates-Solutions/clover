@@ -6,7 +6,7 @@
 
 # Class: CloverError
 
-Defined in: [core/errors.ts:22](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L22)
+Defined in: [core/errors.ts:22](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L22)
 
 Base Clover error class
 
@@ -27,7 +27,7 @@ Base Clover error class
 
 > **new CloverError**(`message`, `code?`, `statusCode?`, `details?`): `CloverError`
 
-Defined in: [core/errors.ts:27](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L27)
+Defined in: [core/errors.ts:27](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L27)
 
 #### Parameters
 
@@ -61,7 +61,7 @@ Defined in: [core/errors.ts:27](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` **code**: [`CloverErrorCode`](../type-aliases/CloverErrorCode.md)
 
-Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L23)
+Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L23)
 
 ***
 
@@ -69,7 +69,7 @@ Defined in: [core/errors.ts:23](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L25)
+Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L25)
 
 ***
 
@@ -77,4 +77,4 @@ Defined in: [core/errors.ts:25](https://github.com/Bates-Solutions/clover/blob/4
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:24](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/errors.ts#L24)
+Defined in: [core/errors.ts:24](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/errors.ts#L24)

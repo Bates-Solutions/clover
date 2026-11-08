@@ -6,7 +6,7 @@
 
 # Interface: LambdaProxyResult
 
-Defined in: [server/middleware/lambda.ts:23](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/server/middleware/lambda.ts#L23)
+Defined in: [server/middleware/lambda.ts:23](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/lambda.ts#L23)
 
 API Gateway proxy result shape.
 
@@ -16,7 +16,7 @@ API Gateway proxy result shape.
 
 > **body**: `string`
 
-Defined in: [server/middleware/lambda.ts:26](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/server/middleware/lambda.ts#L26)
+Defined in: [server/middleware/lambda.ts:26](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/lambda.ts#L26)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [server/middleware/lambda.ts:26](https://github.com/Bates-Solutions/
 
 > **headers**: `Record`\<`string`, `string`\>
 
-Defined in: [server/middleware/lambda.ts:25](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/server/middleware/lambda.ts#L25)
+Defined in: [server/middleware/lambda.ts:25](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/lambda.ts#L25)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [server/middleware/lambda.ts:25](https://github.com/Bates-Solutions/
 
 > **statusCode**: `number`
 
-Defined in: [server/middleware/lambda.ts:24](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/server/middleware/lambda.ts#L24)
+Defined in: [server/middleware/lambda.ts:24](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/lambda.ts#L24)

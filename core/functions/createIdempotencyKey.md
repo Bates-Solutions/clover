@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.4**](../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **createIdempotencyKey**(): `string`
 
-Defined in: [core/utils.ts:76](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/utils.ts#L76)
+Defined in: [core/utils.ts:76](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/utils.ts#L76)
 
 Create a unique idempotency key for Clover requests.
 

@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.3**](../README.md)
+[**@bates-solutions/clover API Reference v1.0.4**](../README.md)
 
 ***
 

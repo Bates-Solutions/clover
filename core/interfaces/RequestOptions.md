@@ -1,4 +1,4 @@
-[**@bates-solutions/clover API Reference v1.0.3**](../../README.md)
+[**@bates-solutions/clover API Reference v1.0.4**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RequestOptions
 
-Defined in: [core/http.ts:37](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L37)
+Defined in: [core/http.ts:37](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/http.ts#L37)
 
 Options for a single request.
 
@@ -16,7 +16,7 @@ Options for a single request.
 
 > `optional` **body?**: `unknown`
 
-Defined in: [core/http.ts:41](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L41)
+Defined in: [core/http.ts:41](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/http.ts#L41)
 
 JSON request body
 
@@ -26,7 +26,7 @@ JSON request body
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/http.ts:43](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L43)
+Defined in: [core/http.ts:43](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/http.ts#L43)
 
 Idempotency key, sent as the `idempotency-key` header
 
@@ -36,6 +36,6 @@ Idempotency key, sent as the `idempotency-key` header
 
 > `optional` **query?**: `Record`\<`string`, `string` \| `number` \| `undefined`\>
 
-Defined in: [core/http.ts:39](https://github.com/mbates/clover/blob/47134c1c76b78e8d968091d72c7813c85f9ad6d2/src/core/http.ts#L39)
+Defined in: [core/http.ts:39](https://github.com/Bates-Solutions/clover/blob/40568e0a95019adb2af4cb858720aefc035388af/src/core/http.ts#L39)
 
 Query-string parameters

@@ -6,7 +6,7 @@
 
 # Interface: CaptureChargeOptions
 
-Defined in: [core/services/payments.service.ts:29](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/payments.service.ts#L29)
+Defined in: [core/services/payments.service.ts:29](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/services/payments.service.ts#L29)
 
 Options for capturing a previously authorized charge.
 
@@ -16,7 +16,7 @@ Options for capturing a previously authorized charge.
 
 > `optional` **amount?**: `number`
 
-Defined in: [core/services/payments.service.ts:31](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/payments.service.ts#L31)
+Defined in: [core/services/payments.service.ts:31](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/services/payments.service.ts#L31)
 
 Amount in cents to capture (defaults to the full authorized amount)
 
@@ -26,4 +26,4 @@ Amount in cents to capture (defaults to the full authorized amount)
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/payments.service.ts:32](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/payments.service.ts#L32)
+Defined in: [core/services/payments.service.ts:32](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/services/payments.service.ts#L32)

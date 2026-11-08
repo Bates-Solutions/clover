@@ -6,7 +6,7 @@
 
 # Interface: OAuthTokens
 
-Defined in: [core/oauth.ts:92](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L92)
+Defined in: [core/oauth.ts:92](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L92)
 
 An expiring token pair returned by [CloverOAuthClient.obtainToken](../classes/CloverOAuthClient.md#obtaintoken) and
 [CloverOAuthClient.refreshToken](../classes/CloverOAuthClient.md#refreshtoken).
@@ -17,7 +17,7 @@ An expiring token pair returned by [CloverOAuthClient.obtainToken](../classes/Cl
 
 > **accessToken**: `string`
 
-Defined in: [core/oauth.ts:94](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L94)
+Defined in: [core/oauth.ts:94](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L94)
 
 Merchant access token. Use as `apiToken` in `createCloverClient`.
 
@@ -27,7 +27,7 @@ Merchant access token. Use as `apiToken` in `createCloverClient`.
 
 > **expiresAt**: `Date`
 
-Defined in: [core/oauth.ts:96](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L96)
+Defined in: [core/oauth.ts:96](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L96)
 
 When `accessToken` expires. Refresh before this.
 
@@ -37,7 +37,7 @@ When `accessToken` expires. Refresh before this.
 
 > **refreshToken**: `string`
 
-Defined in: [core/oauth.ts:101](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L101)
+Defined in: [core/oauth.ts:101](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L101)
 
 Refresh token. Single use: each refresh returns a new pair and invalidates
 this one, so store the new value every time.
@@ -48,6 +48,6 @@ this one, so store the new value every time.
 
 > **refreshTokenExpiresAt**: `Date`
 
-Defined in: [core/oauth.ts:103](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L103)
+Defined in: [core/oauth.ts:103](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L103)
 
 When `refreshToken` expires

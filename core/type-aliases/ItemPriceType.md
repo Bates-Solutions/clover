@@ -8,7 +8,7 @@
 
 > **ItemPriceType** = `"FIXED"` \| `"VARIABLE"` \| `"PER_UNIT"`
 
-Defined in: [core/services/inventory.service.ts:10](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/inventory.service.ts#L10)
+Defined in: [core/services/inventory.service.ts:10](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/services/inventory.service.ts#L10)
 
 How an item is priced. `PER_UNIT` items are sold by weight or measure
 (`unitName`), `VARIABLE` items get their price at the register.

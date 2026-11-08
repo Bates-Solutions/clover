@@ -6,7 +6,7 @@
 
 # Interface: PaginatedResponse\<T\>
 
-Defined in: [core/types/index.ts:37](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/types/index.ts#L37)
+Defined in: [core/types/index.ts:37](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/types/index.ts#L37)
 
 A normalized paginated response.
 
@@ -22,4 +22,4 @@ A normalized paginated response.
 
 > **data**: `T`[]
 
-Defined in: [core/types/index.ts:38](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/types/index.ts#L38)
+Defined in: [core/types/index.ts:38](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/types/index.ts#L38)

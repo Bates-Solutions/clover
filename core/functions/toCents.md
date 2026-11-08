@@ -8,7 +8,7 @@
 
 > **toCents**(`amount`): `number`
 
-Defined in: [core/utils.ts:23](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/utils.ts#L23)
+Defined in: [core/utils.ts:23](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/utils.ts#L23)
 
 Convert a major-unit amount to cents.
 

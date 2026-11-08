@@ -8,7 +8,7 @@
 
 > **CurrencyCode** = `"usd"` \| `"cad"` \| `"gbp"` \| `"eur"` \| `"aud"`
 
-Defined in: [core/types/index.ts:12](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/types/index.ts#L12)
+Defined in: [core/types/index.ts:12](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/types/index.ts#L12)
 
 Currency codes commonly used with Clover's Ecommerce API.
 

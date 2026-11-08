@@ -6,7 +6,7 @@
 
 # Interface: WebhookVerificationResult
 
-Defined in: [server/types.ts:62](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/types.ts#L62)
+Defined in: [server/types.ts:62](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/server/types.ts#L62)
 
 Result of webhook signature verification.
 
@@ -16,7 +16,7 @@ Result of webhook signature verification.
 
 > `optional` **error?**: `string`
 
-Defined in: [server/types.ts:64](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/types.ts#L64)
+Defined in: [server/types.ts:64](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/server/types.ts#L64)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [server/types.ts:64](https://github.com/Bates-Solutions/clover/blob/
 
 > **valid**: `boolean`
 
-Defined in: [server/types.ts:63](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/types.ts#L63)
+Defined in: [server/types.ts:63](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/server/types.ts#L63)

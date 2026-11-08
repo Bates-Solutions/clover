@@ -6,7 +6,7 @@
 
 # Class: CloverOAuthClient
 
-Defined in: [core/oauth.ts:142](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L142)
+Defined in: [core/oauth.ts:142](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L142)
 
 OAuth client for the app-credential endpoints: exchanging an authorization
 code and refreshing an expiring token pair (Clover v2 OAuth, high-trust
@@ -39,7 +39,7 @@ const clover = createCloverClient({
 
 > **new CloverOAuthClient**(`config`): `CloverOAuthClient`
 
-Defined in: [core/oauth.ts:149](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L149)
+Defined in: [core/oauth.ts:149](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L149)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [core/oauth.ts:149](https://github.com/Bates-Solutions/clover/blob/1
 
 > **obtainToken**(`options`): `Promise`\<[`OAuthTokens`](../interfaces/OAuthTokens.md)\>
 
-Defined in: [core/oauth.ts:172](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L172)
+Defined in: [core/oauth.ts:172](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L172)
 
 Exchange the authorization `code` from the OAuth redirect for an expiring
 token pair.
@@ -89,7 +89,7 @@ const { accessToken, refreshToken, expiresAt } =
 
 > **refreshToken**(`options`): `Promise`\<[`OAuthTokens`](../interfaces/OAuthTokens.md)\>
 
-Defined in: [core/oauth.ts:191](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L191)
+Defined in: [core/oauth.ts:191](https://github.com/Bates-Solutions/clover/blob/6c43fd8b921349fda8f7a4741fd607329f81f3cc/src/core/oauth.ts#L191)
 
 Get a new token pair using a refresh token. The refresh token is single
 use: store the returned `refreshToken`, the old one stops working.

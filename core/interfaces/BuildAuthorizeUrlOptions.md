@@ -6,7 +6,7 @@
 
 # Interface: BuildAuthorizeUrlOptions
 
-Defined in: [core/oauth.ts:18](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L18)
+Defined in: [core/oauth.ts:18](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L18)
 
 Options for [buildAuthorizeUrl](../functions/buildAuthorizeUrl.md)
 
@@ -16,7 +16,7 @@ Options for [buildAuthorizeUrl](../functions/buildAuthorizeUrl.md)
 
 > **clientId**: `string`
 
-Defined in: [core/oauth.ts:20](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L20)
+Defined in: [core/oauth.ts:20](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L20)
 
 App ID from the Clover Developer Dashboard
 
@@ -26,7 +26,7 @@ App ID from the Clover Developer Dashboard
 
 > `optional` **environment?**: [`CloverEnvironment`](../type-aliases/CloverEnvironment.md)
 
-Defined in: [core/oauth.ts:26](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L26)
+Defined in: [core/oauth.ts:26](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L26)
 
 Selects the authorize host: `www.clover.com` (production) or
 `sandbox.dev.clover.com` (sandbox).
@@ -43,7 +43,7 @@ Selects the authorize host: `www.clover.com` (production) or
 
 > `optional` **redirectUri?**: `string`
 
-Defined in: [core/oauth.ts:37](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L37)
+Defined in: [core/oauth.ts:37](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L37)
 
 Where Clover sends the merchant back. Must be on the site URL configured
 for the app; when omitted Clover uses that site URL.
@@ -54,7 +54,7 @@ for the app; when omitted Clover uses that site URL.
 
 > **state**: `string`
 
-Defined in: [core/oauth.ts:32](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L32)
+Defined in: [core/oauth.ts:32](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L32)
 
 Unguessable CSRF token, returned unchanged on the redirect. Verify it in
 your callback before exchanging the code. You can also use it to carry

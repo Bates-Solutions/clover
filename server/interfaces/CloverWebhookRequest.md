@@ -6,7 +6,7 @@
 
 # Interface: CloverWebhookRequest
 
-Defined in: [server/middleware/express.ts:14](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/express.ts#L14)
+Defined in: [server/middleware/express.ts:14](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/middleware/express.ts#L14)
 
 Extended Express Request carrying Clover webhook data.
 
@@ -20,7 +20,7 @@ Extended Express Request carrying Clover webhook data.
 
 > `optional` **cloverEvent?**: [`WebhookEvent`](WebhookEvent.md)
 
-Defined in: [server/middleware/express.ts:16](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/express.ts#L16)
+Defined in: [server/middleware/express.ts:16](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/middleware/express.ts#L16)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [server/middleware/express.ts:16](https://github.com/Bates-Solutions
 
 > `optional` **rawBody?**: `string`
 
-Defined in: [server/middleware/express.ts:15](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/middleware/express.ts#L15)
+Defined in: [server/middleware/express.ts:15](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/middleware/express.ts#L15)

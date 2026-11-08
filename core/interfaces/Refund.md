@@ -6,7 +6,7 @@
 
 # Interface: Refund
 
-Defined in: [core/services/refunds.service.ts:8](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L8)
+Defined in: [core/services/refunds.service.ts:8](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L8)
 
 A Clover Ecommerce refund.
 
@@ -16,7 +16,7 @@ A Clover Ecommerce refund.
 
 > `optional` **amount?**: `number`
 
-Defined in: [core/services/refunds.service.ts:12](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L12)
+Defined in: [core/services/refunds.service.ts:12](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [core/services/refunds.service.ts:12](https://github.com/Bates-Solut
 
 > `optional` **charge?**: `string`
 
-Defined in: [core/services/refunds.service.ts:11](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L11)
+Defined in: [core/services/refunds.service.ts:11](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L11)
 
 The charge this refund is against
 
@@ -34,7 +34,7 @@ The charge this refund is against
 
 > `optional` **created?**: `number`
 
-Defined in: [core/services/refunds.service.ts:16](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L16)
+Defined in: [core/services/refunds.service.ts:16](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L16)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [core/services/refunds.service.ts:16](https://github.com/Bates-Solut
 
 > `optional` **currency?**: `string`
 
-Defined in: [core/services/refunds.service.ts:13](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L13)
+Defined in: [core/services/refunds.service.ts:13](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L13)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [core/services/refunds.service.ts:13](https://github.com/Bates-Solut
 
 > `optional` **id?**: `string`
 
-Defined in: [core/services/refunds.service.ts:9](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L9)
+Defined in: [core/services/refunds.service.ts:9](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L9)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [core/services/refunds.service.ts:9](https://github.com/Bates-Soluti
 
 > `optional` **reason?**: `string`
 
-Defined in: [core/services/refunds.service.ts:15](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L15)
+Defined in: [core/services/refunds.service.ts:15](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L15)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: [core/services/refunds.service.ts:15](https://github.com/Bates-Solut
 
 > `optional` **status?**: `string`
 
-Defined in: [core/services/refunds.service.ts:14](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L14)
+Defined in: [core/services/refunds.service.ts:14](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L14)

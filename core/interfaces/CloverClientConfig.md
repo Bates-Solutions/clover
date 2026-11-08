@@ -6,7 +6,7 @@
 
 # Interface: CloverClientConfig
 
-Defined in: [core/client.ts:10](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L10)
+Defined in: [core/client.ts:11](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/client.ts#L11)
 
 Configuration options for the Clover client.
 
@@ -16,7 +16,7 @@ Configuration options for the Clover client.
 
 > **apiToken**: `string`
 
-Defined in: [core/client.ts:12](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L12)
+Defined in: [core/client.ts:13](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/client.ts#L13)
 
 Clover API token (OAuth access token or API key)
 
@@ -26,7 +26,7 @@ Clover API token (OAuth access token or API key)
 
 > `optional` **environment?**: [`CloverEnvironment`](../type-aliases/CloverEnvironment.md)
 
-Defined in: [core/client.ts:22](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L22)
+Defined in: [core/client.ts:23](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/client.ts#L23)
 
 Environment.
 
@@ -42,7 +42,7 @@ Environment.
 
 > `optional` **fetchImpl?**: \{(`input`, `init?`): `Promise`\<`Response`\>; (`input`, `init?`): `Promise`\<`Response`\>; \}
 
-Defined in: [core/client.ts:24](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L24)
+Defined in: [core/client.ts:25](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/client.ts#L25)
 
 Override the `fetch` implementation (mainly for tests).
 
@@ -92,7 +92,7 @@ Override the `fetch` implementation (mainly for tests).
 
 > `optional` **merchantId?**: `string`
 
-Defined in: [core/client.ts:17](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/client.ts#L17)
+Defined in: [core/client.ts:18](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/client.ts#L18)
 
 Merchant id. Required for platform (`/v3/merchants/{mId}`) operations such
-as `customers`; not needed for Ecommerce charges/refunds.
+as `customers` and `inventory`; not needed for Ecommerce charges/refunds.

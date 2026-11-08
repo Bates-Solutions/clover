@@ -6,7 +6,7 @@
 
 # Interface: RequestOptions
 
-Defined in: [core/http.ts:38](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L38)
+Defined in: [core/http.ts:38](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L38)
 
 Options for a single request.
 
@@ -16,7 +16,7 @@ Options for a single request.
 
 > `optional` **body?**: `unknown`
 
-Defined in: [core/http.ts:42](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L42)
+Defined in: [core/http.ts:45](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L45)
 
 JSON request body
 
@@ -26,7 +26,7 @@ JSON request body
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/http.ts:44](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L44)
+Defined in: [core/http.ts:47](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L47)
 
 Idempotency key, sent as the `idempotency-key` header
 
@@ -34,8 +34,9 @@ Idempotency key, sent as the `idempotency-key` header
 
 ### query?
 
-> `optional` **query?**: `Record`\<`string`, `string` \| `number` \| `undefined`\>
+> `optional` **query?**: `Record`\<`string`, `string` \| `number` \| `string`[] \| `undefined`\>
 
-Defined in: [core/http.ts:40](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L40)
+Defined in: [core/http.ts:43](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L43)
 
-Query-string parameters
+Query-string parameters. An array repeats the key once per value, which is
+how Clover takes several `filter` parameters.

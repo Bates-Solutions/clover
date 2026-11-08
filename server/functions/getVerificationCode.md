@@ -8,7 +8,7 @@
 
 > **getVerificationCode**(`event`): `string` \| `undefined`
 
-Defined in: [server/webhook.ts:150](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/webhook.ts#L150)
+Defined in: [server/webhook.ts:150](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/webhook.ts#L150)
 
 The verification code Clover sends when first validating a webhook URL.
 

@@ -6,7 +6,7 @@
 
 # Interface: CloverOAuthClientConfig
 
-Defined in: [core/oauth.ts:77](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L77)
+Defined in: [core/oauth.ts:77](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L77)
 
 Configuration for [CloverOAuthClient](../classes/CloverOAuthClient.md). Uses the app's credentials, not
 a merchant access token.
@@ -17,7 +17,7 @@ a merchant access token.
 
 > **clientId**: `string`
 
-Defined in: [core/oauth.ts:79](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L79)
+Defined in: [core/oauth.ts:79](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L79)
 
 App ID
 
@@ -27,7 +27,7 @@ App ID
 
 > **clientSecret**: `string`
 
-Defined in: [core/oauth.ts:81](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L81)
+Defined in: [core/oauth.ts:81](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L81)
 
 App secret (Developer Dashboard, App settings). Never logged or put in errors.
 
@@ -37,7 +37,7 @@ App secret (Developer Dashboard, App settings). Never logged or put in errors.
 
 > `optional` **environment?**: [`CloverEnvironment`](../type-aliases/CloverEnvironment.md)
 
-Defined in: [core/oauth.ts:83](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L83)
+Defined in: [core/oauth.ts:83](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L83)
 
 #### Default
 
@@ -51,7 +51,7 @@ Defined in: [core/oauth.ts:83](https://github.com/Bates-Solutions/clover/blob/18
 
 > `optional` **fetchImpl?**: \{(`input`, `init?`): `Promise`\<`Response`\>; (`input`, `init?`): `Promise`\<`Response`\>; \}
 
-Defined in: [core/oauth.ts:85](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/oauth.ts#L85)
+Defined in: [core/oauth.ts:85](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/oauth.ts#L85)
 
 Override the `fetch` implementation (mainly for tests)
 

@@ -6,7 +6,7 @@
 
 # Interface: WebhookEvent
 
-Defined in: [server/types.ts:8](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/types.ts#L8)
+Defined in: [server/types.ts:8](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/types.ts#L8)
 
 A parsed Clover webhook event.
 
@@ -24,6 +24,6 @@ webhooks), so the event is kept generic — dispatch is keyed off an optional
 
 > `optional` **type?**: `string`
 
-Defined in: [server/types.ts:10](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/types.ts#L10)
+Defined in: [server/types.ts:10](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/types.ts#L10)
 
 Event type, when the payload carries one

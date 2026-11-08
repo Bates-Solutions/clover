@@ -10,7 +10,7 @@
 Platform APIs.
 
 The package's main entrypoint. Exports `createCloverClient` / `CloverClient`
-(one service per Clover domain — `payments`, `refunds`, `customers`), the
+(one service per Clover domain — `payments`, `refunds`, `customers`, `inventory`), the
 normalized error hierarchy (`CloverError` + `parseCloverError`), and money /
 idempotency utilities, plus the v2 OAuth helpers (`buildAuthorizeUrl`,
 `createCloverOAuthClient`) for connecting a merchant. It ships no vendor SDK — it talks to Clover over a
@@ -37,6 +37,7 @@ const charge = await clover.payments.create({ amount: 1000, source: 'clv_tok' })
 - [CloverPaymentError](classes/CloverPaymentError.md)
 - [CloverValidationError](classes/CloverValidationError.md)
 - [CustomersService](classes/CustomersService.md)
+- [InventoryService](classes/InventoryService.md)
 - [PaymentsService](classes/PaymentsService.md)
 - [RefundsService](classes/RefundsService.md)
 
@@ -50,14 +51,23 @@ const charge = await clover.payments.create({ amount: 1000, source: 'clv_tok' })
 - [CloverOAuthClientConfig](interfaces/CloverOAuthClientConfig.md)
 - [CreateChargeOptions](interfaces/CreateChargeOptions.md)
 - [CreateCustomerOptions](interfaces/CreateCustomerOptions.md)
+- [CreateItemOptions](interfaces/CreateItemOptions.md)
 - [CreateRefundOptions](interfaces/CreateRefundOptions.md)
 - [Customer](interfaces/Customer.md)
+- [FindItemsByCodeOptions](interfaces/FindItemsByCodeOptions.md)
+- [GetItemOptions](interfaces/GetItemOptions.md)
+- [Item](interfaces/Item.md)
+- [ItemFields](interfaces/ItemFields.md)
+- [ItemStock](interfaces/ItemStock.md)
+- [ListItemsOptions](interfaces/ListItemsOptions.md)
 - [Money](interfaces/Money.md)
 - [OAuthTokens](interfaces/OAuthTokens.md)
 - [PaginatedResponse](interfaces/PaginatedResponse.md)
 - [PaginationOptions](interfaces/PaginationOptions.md)
 - [Refund](interfaces/Refund.md)
 - [RequestOptions](interfaces/RequestOptions.md)
+- [UpdateItemOptions](interfaces/UpdateItemOptions.md)
+- [UpdateItemStockOptions](interfaces/UpdateItemStockOptions.md)
 
 ## Type Aliases
 
@@ -65,6 +75,8 @@ const charge = await clover.payments.create({ amount: 1000, source: 'clv_tok' })
 - [CloverErrorCode](type-aliases/CloverErrorCode.md)
 - [CloverHost](type-aliases/CloverHost.md)
 - [CurrencyCode](type-aliases/CurrencyCode.md)
+- [ItemExpand](type-aliases/ItemExpand.md)
+- [ItemPriceType](type-aliases/ItemPriceType.md)
 - [UpdateCustomerOptions](type-aliases/UpdateCustomerOptions.md)
 
 ## Functions

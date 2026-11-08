@@ -8,7 +8,7 @@
 
 > **parseWebhookEvent**(`rawBody`): [`WebhookEvent`](../interfaces/WebhookEvent.md)
 
-Defined in: [server/webhook.ts:136](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/server/webhook.ts#L136)
+Defined in: [server/webhook.ts:136](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/server/webhook.ts#L136)
 
 Parse a webhook request body into an event.
 

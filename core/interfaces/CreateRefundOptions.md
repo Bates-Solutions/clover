@@ -6,7 +6,7 @@
 
 # Interface: CreateRefundOptions
 
-Defined in: [core/services/refunds.service.ts:22](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L22)
+Defined in: [core/services/refunds.service.ts:22](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L22)
 
 Options for creating a refund.
 
@@ -16,7 +16,7 @@ Options for creating a refund.
 
 > `optional` **amount?**: `number`
 
-Defined in: [core/services/refunds.service.ts:26](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L26)
+Defined in: [core/services/refunds.service.ts:26](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L26)
 
 Amount in cents. Omit for a full refund.
 
@@ -26,7 +26,7 @@ Amount in cents. Omit for a full refund.
 
 > **chargeId**: `string`
 
-Defined in: [core/services/refunds.service.ts:24](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L24)
+Defined in: [core/services/refunds.service.ts:24](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L24)
 
 The charge to refund
 
@@ -36,7 +36,7 @@ The charge to refund
 
 > `optional` **idempotencyKey?**: `string`
 
-Defined in: [core/services/refunds.service.ts:29](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L29)
+Defined in: [core/services/refunds.service.ts:29](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L29)
 
 ***
 
@@ -44,6 +44,6 @@ Defined in: [core/services/refunds.service.ts:29](https://github.com/Bates-Solut
 
 > `optional` **reason?**: `string`
 
-Defined in: [core/services/refunds.service.ts:28](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/services/refunds.service.ts#L28)
+Defined in: [core/services/refunds.service.ts:28](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/services/refunds.service.ts#L28)
 
 Reason for the refund

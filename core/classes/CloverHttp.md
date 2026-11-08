@@ -6,7 +6,7 @@
 
 # Class: CloverHttp
 
-Defined in: [core/http.ts:53](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L53)
+Defined in: [core/http.ts:56](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L56)
 
 A small typed `fetch`-based HTTP client for the Clover Ecommerce and Platform
 APIs. No SDK dependency; runs anywhere `fetch` and WebCrypto exist.
@@ -19,7 +19,7 @@ Non-2xx responses are thrown as typed errors (see cloverErrorFromResponse).
 
 > **new CloverHttp**(`config`): `CloverHttp`
 
-Defined in: [core/http.ts:56](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L56)
+Defined in: [core/http.ts:59](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L59)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: [core/http.ts:56](https://github.com/Bates-Solutions/clover/blob/186
 
 > **get** **merchantId**(): `string` \| `undefined`
 
-Defined in: [core/http.ts:62](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L62)
+Defined in: [core/http.ts:65](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L65)
 
 The configured merchant id, if any.
 
@@ -53,7 +53,7 @@ The configured merchant id, if any.
 
 > **request**\<`T`\>(`host`, `method`, `path`, `options?`): `Promise`\<`T`\>
 
-Defined in: [core/http.ts:75](https://github.com/Bates-Solutions/clover/blob/186c4d6bc05073aef1987a8e63dfb83e16bf2c21/src/core/http.ts#L75)
+Defined in: [core/http.ts:78](https://github.com/Bates-Solutions/clover/blob/181205b4567df95fcdb4571f6793b7967773cadb/src/core/http.ts#L78)
 
 Perform a request and return the parsed JSON body.
 
